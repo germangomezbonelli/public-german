@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>//INTANGIBLE</title>
+</head>
+<body style="background-color:#000000;">
+<div class = basico style="  
+background: rgb(0, 0, 0);
+margin-top: 25px;
+display: flex;
+justify-content: center;
+align-items: center;">
+    <div id="Intro" style=
+    "font-family: sans-serif; background:#000000; 
+    background: rgb(26, 24, 24);
+    width: 50%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 2px solid #ccc;
+    color:white">
+        <div id="introconfig">
+            <div id="texto">Tenía esa misteriosa capacidad de alabar a un universo que si bien parecía despreciar, lo llenaba de dicha con sus bellezas ocultas. En esa tarde que parecía ser cálida, el sol se filtraba por la ventana antigua. En sus ojos relampagueaban secretos que no era capaz de contar. Y cuando entre palabras dulces sentí su tacto, eran gotas de un frágil Aleph. Lo ví a lo lejos, caminando entre los médanos, alejándose y sentí el mar amagando con tapar mis piernas. Entonces volteó y me miró, pero atravesando mi rostro. Porque estábamos en un peñasco y detrás tenía el abismo. Ese abismo que me acariciaba y al que no quería observar. Se desplazó sobre mi piel como la melodía de un tango, zigzagueante y firme. Entonces supe que era la muerte. Pero nací una vez más, tan solo un instante, esperando su encuentro. Corrimos descalzos entre pastos altos y árboles milenarios. Y cuando cantó, escuché su voz, que destilaba renovada nostalgia. Mi libertad y mi condena, relampagueando entre cielos anaranjados, él podía sostenerlas. Entonces me dejé caer, y me desdibujé, quizás otra eternidad.</div>
+            <a href="#" onclick="siguienteuno()">Ingresar</a>
+        </div>
+    </div>
+</div>
+
+<script>
+function siguienteuno(){document.getElementById("introconfig").innerHTML = pagdos}
+function siguientedos(){document.getElementById("introconfig").innerHTML = pagtres}
+function siguientetres(){document.getElementById("introconfig").innerHTML = pagcuatro}
+function siguientecuatro(){document.getElementById("introconfig").innerHTML = pagcinco}
+function siguientecinco(){document.getElementById("introconfig").innerHTML = pagseis}
+function siguienteseis(){document.getElementById("introconfig").innerHTML = pagsiete}
+
+var pagdos = "<div id='texto' style='color:orange'>Eran tiempos de eternidades definidas. No existía ya la soledad. Las habitaciones vacías, los pensamientos sin refugio. Todo y nada estaba allí. Horizontes infinitos veían amanecer, en cada instante, astros intangibles. Meras ficciones de placer etéreo </div>" + "<a href='#' onclick='siguientedos()'>Siguiente</a>" 
+var pagtres = "<div id='texto' style='color:orange'>Eran tiempos de eternidades definidas. No existía ya la soledad. Las habitaciones vacías, los pensamientos sin refugio. Todo y nada estaba allí. Horizontes infinitos veían amanecer, en cada instante, astros intangibles. Meras ficciones de placer etéreo </div>" + "<br> <br>" + "<div id='texto' style='color:orange'> Advertencia: Las siguientes conversaciones han sido traducidas para que los lectores logren un pleno entendimiento de las mismas. Superando así, barreras lingüísticas.</div>" + "<a href='#' onclick='siguientetres()'>Siguiente</a>" + "<a href='#' onclick='atrasdos()'>   Ir atras</a>" 
+var pagcuatro = "<div id='texto' style='color:green'>Caminaba entre las calles de una ciudad medieval. Bajo mis pies, la grava del sendero producía un sonido poco usual. Recorrió mi cuerpo una ligera alegría cuando vi a lo lejos el buscado castillo. Torres de marfil, curvos muros que se retorcían sobre sí mismos y ventanas altísimas, que parecían no encontrar fín. Apuré el paso, pero sin descuidar mi disfrute de la vista. Sabía que era inevitable encontrarte. Quizás entre los cristalinos laberintos, o en los jardines de espeso verde. Crucé el puente que unificaba ambas islas flotantes, debajo de él no pude mirar, supuse que no había nada más que un abismo en el que las matemáticas se perdían. <br> <br> Al acercarme al enorme portón, me identifiqué. Los detectores de impostores estaban muy agitados últimamente. Había escuchado que quizás esto se debía a ciertos atentados contra la seguridad, algo que llamaban “filtraciones del sistema”. <br> Al entrar, pude leer tu nombre con facilidad, ya que resaltaba en la construcción, aún a pesar del brillo de los perlados muebles que adornaban el Gran Salón. <br> <br> Me acerqué y nos saludamos con agrado. Quizás fue un abrazo cordial. <br> Entonces, preguntaste si no prefería ir a un lugar más tranquilo. Y al aceptar, nos encontramos en aquel antiguo café que te gustaba. No recuerdo el nombre del desarrollador que creaba esas pintorezcas porciones de mundo, así que te pregunté. </div>" + "<a href='#' onclick='siguientecuatro()'>Siguiente</a>" + "<a href='#' onclick='atrastres()'>   Ir atras</a>" 
+var pagcinco = "<div id='texto'>Pantalla número cinco</div>" + "<a href='#' onclick='siguientecinco()'>Siguiente</a>" + "<a href='#' onclick='atrascuatro()'>   Ir atras</a>" 
+var pagseis = "<div id='texto'>Pantalla número seis</div>" + "<a href='#' onclick='siguienteseis()'>Siguiente</a>" + "<a href='#' onclick='atrascinco()'>   Ir atras</a>" 
+var pagsiete = "<div id='texto'>Pantalla número siete</div>" + "<a href='#' onclick='siguientesiete()'>Siguiente</a>" + "<a href='#' onclick='atrasseis()'>   Ir atras</a>" 
+
+function atrasdos(){document.getElementById("introconfig").innerHTML = pagdos}
+function atrastres(){document.getElementById("introconfig").innerHTML = pagtres}
+function atrascuatro(){document.getElementById("introconfig").innerHTML = pagcuatro}
+function atrascinco(){document.getElementById("introconfig").innerHTML = pagcinco}
+function atrasseis(){document.getElementById("introconfig").innerHTML = pagseis}
+
+style='background: rgb(0, 0, 0); margin-top: 25px; display: flex; justify-content: center; align-items: center;'
+
+
+</script>
+
+</body>
+</html>
